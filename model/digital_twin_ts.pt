@@ -1,0 +1,7 @@
+import torch
+from model.model import DigitalTwinModel
+
+model = DigitalTwinModel()
+example = torch.randn(1, 3)
+traced = torch.jit.trace(model, example)
+traced.save("model/digital_twin_ts.pt")
