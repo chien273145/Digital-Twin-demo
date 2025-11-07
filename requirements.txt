@@ -1,2 +1,2 @@
-streamlit==1.24.0
+streamlit==1.28.0
 torch==2.2.0     # chọn version phù hợp (cpu); trên Streamlit cloud hãy dùng CPU version
